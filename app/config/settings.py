@@ -8,8 +8,10 @@ class Settings:
     TAVILY_API_KEY = os.getenv("TAVILY_API_KEY")
 
     ALLOWED_MODEL_NAMES =[
-        "llama3-70b-8192",
-        "llama-3.3-70b-versatile"
+        "llama-3.3-70b-versatile",
+        "llama-3.1-70b-versatile",
+        "llama-3.1-8b-instant",
+        "mixtral-8x7b-32768"
     ]
 
 settings=Settings()
